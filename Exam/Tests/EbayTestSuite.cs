@@ -28,8 +28,8 @@ namespace Exam.Tasks
             Search.Assert1(Driver);
             Search.Assert2(Driver);
             Search.Assert3(Driver);
-            Search.Assert4(Driver);
-            Search.Assert5(Driver);
+            //Search.Assert4(Driver);
+            //Search.Assert5(Driver);
             var list = Search.OrderDataTake5();
             var list2 = Search.OrderDataByName();
             var list3 = Search.OrderDataByPrice();

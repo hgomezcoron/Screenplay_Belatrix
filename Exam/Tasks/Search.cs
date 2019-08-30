@@ -38,22 +38,22 @@ namespace Exam.Tasks
         public static void Assert1(IWebDriver driver)
         {
             string text = SaveVariable.On(driver, SearchUI.Item1);
-            Assert.AreEqual("Puma Clyde X WWE \"dinero en el banco\" Colección maletín Limitada US talla 10 para hombre", text);
+            Assert.AreEqual("Zapatos De Cuero rara VINTAGE PUMA especial 657, Alemania del Oeste, Azul Talla 10, NUEVO!!!", text);
         }
 
         public static void Assert2(IWebDriver driver)
         {
             string text = SaveVariable.On(driver, SearchUI.Item2);
-            Assert.AreEqual("Puma Clyde X WWE dinero en el Bank Oro tenis zapatos Limited 100 pares nuevo 10", text);
+            Assert.AreEqual("Puma Clyde X WWE \"dinero en el banco\" Colección maletín Limitada US talla 10 para hombre", text);
         }
 
         public static void Assert3(IWebDriver driver)
         {
             string text = SaveVariable.On(driver, SearchUI.Item3);
-            Assert.AreEqual("2009 PUMA UNDFTD 24K Mediados de oro metálico blanco Undefeated 349567-01 nuevo 10", text);
+            Assert.AreEqual("Puma Clyde X WWE dinero en el Bank Oro tenis zapatos Limited 100 pares nuevo 10", text);
         }
 
-        public static void Assert4(IWebDriver driver)
+        /*public static void Assert4(IWebDriver driver)
         {
             string text = SaveVariable.On(driver, SearchUI.Item4);
             Assert.AreEqual("Zapatos De Cuero rara VINTAGE PUMA especial 657, Alemania del Oeste, Azul Talla 10, NUEVO!!!", text);
@@ -63,7 +63,7 @@ namespace Exam.Tasks
         {
             string text = SaveVariable.On(driver, SearchUI.Item5);
             Assert.AreEqual("!! rara!!! Alexander Mcqueen para Puma Zapatillas De Hombre Talla 10US congac Joust Piel de Potro", text);
-        }
+        }*/
 
         public static int OrderDataTake5()
         {
